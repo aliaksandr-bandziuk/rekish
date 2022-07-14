@@ -1,3 +1,25 @@
-.title {
-  font-size: 50px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1169px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  letter-spacing: -0.02em;
+  color: #377B93;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=card.css.map */
