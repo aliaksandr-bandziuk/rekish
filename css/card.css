@@ -193,17 +193,21 @@ h1 {
   padding-left: 10px;
   padding-top: 13px;
   padding-bottom: 13px;
-  color: #D9D9D9;
+  color: #B66FCF;
+  font-weight: bold;
   transition: all ease-in 0.3s;
 }
 .contact .contact__wrapper .contact__form form .enter-data::-moz-placeholder {
   opacity: 0.5;
+  font-weight: normal;
 }
 .contact .contact__wrapper .contact__form form .enter-data:-ms-input-placeholder {
   opacity: 0.5;
+  font-weight: normal;
 }
 .contact .contact__wrapper .contact__form form .enter-data::placeholder {
   opacity: 0.5;
+  font-weight: normal;
 }
 .contact .contact__wrapper .contact__form form .enter-data:focus {
   outline: 1px solid #7009A6;

@@ -188,10 +188,12 @@ h1 {
           padding-left: 10px;
           padding-top: 13px;
           padding-bottom: 13px;
-          color: #D9D9D9;
+          color: #B66FCF;
+          font-weight: bold;
           transition: all ease-in .3s;
           &::placeholder {
             opacity: 0.5;
+            font-weight: normal;
           }
           &:focus {
             outline: 1px solid #7009A6;
