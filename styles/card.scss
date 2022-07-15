@@ -226,6 +226,10 @@ h1 {
           line-height: 78px;
           letter-spacing: -0.02em;
           color: #7009A6;
+          @media (max-width: 570px) {
+            font-size: 40px;
+            line-height: 45px;
+          }
         }
         p {
           font-weight: 700;
@@ -233,6 +237,10 @@ h1 {
           line-height: 29px;
           letter-spacing: -0.02em;
           color: #B66FCF;
+          @media (max-width: 570px) {
+            font-size: 20px;
+            line-height: 25px;
+          }
           @media (max-width: 470px) {
             margin-bottom: 20px;
           }
@@ -323,6 +331,10 @@ h1 {
     letter-spacing: -0.02em;color: #000000;
     text-align: center;
     margin-bottom: 70px;
+    @media (max-width: 570px) {
+      font-size: 40px;
+      line-height: 45px;
+    }
   }
   .variety {
     margin-bottom: 100px;

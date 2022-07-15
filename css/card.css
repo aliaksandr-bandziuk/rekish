@@ -233,12 +233,24 @@ h1 {
   letter-spacing: -0.02em;
   color: #7009A6;
 }
+@media (max-width: 570px) {
+  .contact .contact__wrapper .contact__description-content h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
 .contact .contact__wrapper .contact__description-content p {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   letter-spacing: -0.02em;
   color: #B66FCF;
+}
+@media (max-width: 570px) {
+  .contact .contact__wrapper .contact__description-content p {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 @media (max-width: 470px) {
   .contact .contact__wrapper .contact__description-content p {
@@ -344,6 +356,12 @@ h1 {
   color: #000000;
   text-align: center;
   margin-bottom: 70px;
+}
+@media (max-width: 570px) {
+  .varieties h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
 }
 .varieties .variety {
   margin-bottom: 100px;
