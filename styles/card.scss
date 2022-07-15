@@ -17,7 +17,7 @@ img {
 .banner-main {
   background-image: url("/images/banner.jpg");
   background-repeat: no-repeat;
-  // background-position: 65% 0;
+  // background-position: center;
   background-size: cover;
   // background-attachment: scroll;
   // margin-bottom: 25px;
@@ -30,6 +30,15 @@ img {
     line-height: 85px;
     letter-spacing: -0.02em;
     color: #7009A6;
+    @media (max-width: 570px) {
+      font-size: 50px;
+      line-height: 55px;
+      max-width: 95%;
+    }
+    @media (max-width: 370px) {
+      font-size: 40px;
+      line-height: 45px;
+    }
   }
   &__text {
     max-width: 585px;
@@ -38,10 +47,18 @@ img {
     letter-spacing: -0.02em;
     color: #B66FCF;
     margin-bottom: 70px;
+    @media (max-width: 570px) {
+      max-width: 95%;
+    }
   }
   &__buttons {
     display: flex;
     gap: 75px;
+    @media (max-width: 570px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
     .main__button {
       width: 316px;
       background-color: #B66FCF;
@@ -58,6 +75,9 @@ img {
       &:hover {
         background-color: #fff;
         color: #B66FCF;
+      }
+      @media (max-width: 570px) {
+        max-width: 90%;
       }
     }
   }
@@ -291,6 +311,9 @@ h1 {
 
 .varieties {
   padding-top: 150px;
+  @media (max-width: 831px) {
+    padding-bottom: 250px;
+  }
   h2 {
     font-size: 48px;
     line-height: 59px;

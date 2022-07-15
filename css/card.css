@@ -27,6 +27,19 @@ img {
   letter-spacing: -0.02em;
   color: #7009A6;
 }
+@media (max-width: 570px) {
+  .banner-main__title {
+    font-size: 50px;
+    line-height: 55px;
+    max-width: 95%;
+  }
+}
+@media (max-width: 370px) {
+  .banner-main__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
 .banner-main__text {
   max-width: 585px;
   font-size: 30px;
@@ -35,9 +48,21 @@ img {
   color: #B66FCF;
   margin-bottom: 70px;
 }
+@media (max-width: 570px) {
+  .banner-main__text {
+    max-width: 95%;
+  }
+}
 .banner-main__buttons {
   display: flex;
   gap: 75px;
+}
+@media (max-width: 570px) {
+  .banner-main__buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 }
 .banner-main__buttons .main__button {
   width: 316px;
@@ -56,6 +81,11 @@ img {
 .banner-main__buttons .main__button:hover {
   background-color: #fff;
   color: #B66FCF;
+}
+@media (max-width: 570px) {
+  .banner-main__buttons .main__button {
+    max-width: 90%;
+  }
 }
 
 input::-webkit-outer-spin-button,
@@ -296,6 +326,11 @@ h1 {
 
 .varieties {
   padding-top: 150px;
+}
+@media (max-width: 831px) {
+  .varieties {
+    padding-bottom: 250px;
+  }
 }
 .varieties h2 {
   font-size: 48px;
