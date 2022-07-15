@@ -11,6 +11,18 @@
   <link rel="stylesheet" href="css/card.css">
 </head>
 <body>
+  <!-- баннер - начало -->
+  <section class="banner-main">
+    <div class="container">
+      <h2 class="banner-main__title">Контрактное производство косметики</h2>
+      <p class="banner-main__text">Разработаем и выпустим косметику под вашим брендом</p>
+      <div class="banner-main__buttons">
+        <a href="#" class="main__button">Узнать стоимость</a>
+        <a href="#" class="main__button">Связаться</a>
+      </div>
+    </div>
+  </section>
+  <!-- баннер - конец -->
   <section class="title">
     <div class="container">
       <h1>Крем для лица</h1>
@@ -318,7 +330,52 @@
       </div>
     </div>
   </section>
-  <section class="calculator"></section>
+  <section class="calculator">
+    <div class="container">
+      <form action="#" class="form__calculator">
+        <div class="form__data">
+          <div class="select-cosmetics">
+            <label for="cosmetics">Вид косметики</label>
+            <br>
+            <select name="cosmetics" id="cosmetics">
+              <option value="none" disabled selected hidden>Выберите пункт</option>
+              <option value="Первый пункт">Первый пункт</option>
+              <option value="Второй пункт">Второй пункт</option>
+              <option value="Третий пункт">Третий пункт</option>
+            </select>
+          </div>
+          <div class="select-body">
+            <label for="body">Часть тела</label>
+            <br>
+            <select name="body" id="body">
+              <option value="none" disabled selected hidden>Выберите пункт</option>
+              <option value="Спина">Спина</option>
+              <option value="Голень">Голень</option>
+              <option value="Палец">Палец</option>
+            </select>
+          </div>
+          <div class="select-amount">
+            <label for="amount">Количество</label>
+            <br>
+            <input type="number" name="amount" id="amount" placeholder="От 300 единиц">
+          </div>
+          <div class="select-pack">
+            <label for="pack">Тара</label>
+            <br>
+            <select name="pack" id="pack">
+              <option value="none" disabled selected hidden>Выберите пункт</option>
+              <option value="Спина">Ведро</option>
+              <option value="Голень">Тазик</option>
+              <option value="Палец">Ванна</option>
+            </select>
+          </div>
+        </div>
+        <div class="calculator__submit">
+          <input type="submit" value="Узнать цену">
+        </div>
+      </form>
+    </div>
+  </section>
   <section class="faq"></section>
 </body>
 </html>
