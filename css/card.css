@@ -676,6 +676,12 @@ h1 {
   margin-bottom: 70px;
   text-align: center;
 }
+@media (max-width: 570px) {
+  .benefits h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
 .benefits .benefits__items {
   max-width: 1000px;
   margin: 0 auto;

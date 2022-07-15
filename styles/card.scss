@@ -613,6 +613,10 @@ h1 {
     color: #000000;
     margin-bottom: 70px;
     text-align: center;
+    @media (max-width: 570px) {
+      font-size: 40px;
+      line-height: 45px;
+    }
   }
   .benefits__items {
     max-width: 1000px;
