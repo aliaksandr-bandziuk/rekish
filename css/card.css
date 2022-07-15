@@ -161,6 +161,11 @@ h1 {
   height: 100%;
   aspect-ratio: 2/3;
 }
+@media (max-width: 500px) {
+  .desctiption .options .option__img img {
+    height: auto;
+  }
+}
 .desctiption .options .option__text {
   padding: 20px 15px;
 }

@@ -156,6 +156,9 @@ h1 {
         img {
           height: 100%;
           aspect-ratio: 2 / 3;
+          @media (max-width: 500px) {
+            height: auto;
+          }
         }
       }
       &__text {
